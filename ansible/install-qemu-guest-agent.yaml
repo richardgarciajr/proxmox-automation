@@ -8,7 +8,7 @@
       command: apt update
 
     - name: add universe repo
-      command: add-apt-repository universe
+      command: add-apt-repository universe -y
       
     - name: update apt cache
       command: apt update
